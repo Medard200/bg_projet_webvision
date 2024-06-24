@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li a {
+    color: black;
+}
+.navbar ul li a:hover {
+    color: rgb(0, 173, 130);
+}
+
+.banner{
+    background: #000;
+}
+.banner-img{
+    background: url(image/hero-bg.jpg) no-repeat fixed center;
+}
+.banner-overlay{
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    
+}
+.banner .banner-overlay .fst{
+    margin-top: 200px;
+}
+.cours img{
+    height: 300px;
+    object-fit: cover;
+}
+.cours .profil img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+} 
+.icone:hover{
+    i{
+        background-color: rgb(28, 215, 109);
+    }
+
+}
+.popular:hover{
+    border-color: rgb(0, 251, 167);   
+
+    .popular{
+        color: rgb(0, 251, 167);  
+    }
+}
